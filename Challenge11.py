@@ -26,13 +26,8 @@ def main(string1: str, string2: str):
 
     for letra in string2Limpia:
         string1Recortada = string1Recortada.replace(letra, '')
-
-
-
     print(string1Recortada)
     print(string2Recortada)
-
-
 
 if __name__ == '__main__':
     main(string1='brais', string2='moure')
